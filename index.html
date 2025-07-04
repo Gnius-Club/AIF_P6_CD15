@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciudadanía Digital 15: Perla</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <h1><span class="book-icon">🧑‍💻</span> <strong>Ciudadanía Digital Misión 15: Perla</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">👁️</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+            </ul>
+
+            <div class="sidebar-info">
+                <p>💡 Cada actividad está cuidadosamente diseñada para involucrar a los estudiantes.</p>
+                <p>⏱️ Se proporcionan estimaciones de tiempo para cada actividad para ayudarle a mantener el rumbo.</p>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <!-- SECCIÓN "DE UN VISTAZO" (ANTES ACTIVITY-0) -->
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo: Sesión Gnius</h2>
+                <p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para el facilitador.</p>
+                <div class="overview-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+                                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Objetivos:</strong>
+                                    <ul>
+                                        <li>Comprender cómo afecta la IA el mundo.</li>
+                                        <li>Analizar las decisiones ocultas y la responsabilidad ciudadana.</li>
+                                        <li>Identificar aplicaciones invisibles de IA en la vida diaria: filtros de cámara, predicción del clima, anuncios, reconocimiento facial, desbloqueo de dispositivos.</li>
+                                        <li>Reconocer que la IA elige sin que lo notemos: ¿quién decide qué veo primero en redes o apps?</li>
+                                        <li>Reconocer las formas ocultas en que la IA influye en la vida digital diaria, desarrollar pensamiento crítico sobre esas decisiones y proponer principios de justicia, explicabilidad y responsabilidad desde el entorno escolar.</li>
+                                    </ul>
+                                    <strong>Secuencia de Clase:</strong>
+                                    <ul>
+                                        <li><strong class="tactic-highlight">Recuerdo Relámpago</strong></li>
+                                        <li><strong class="tactic-highlight">Conexión Ada</strong></li>
+                                        <li><strong class="tactic-highlight">Challenge Express</strong></li>
+                                        <li><strong class="tactic-highlight">Ticket de Salida/Tweet de Aprendizaje</strong></li>
+                                    </ul>
+                                    <strong>Entregable Clave:</strong>
+                                    <ul>
+                                        <li>Mapeo de la IA oculta en la vida diaria y un "Tweet de Aprendizaje" personal sobre la percepción de la tecnología.</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <strong>Materiales Específicos:</strong>
+                                    <ul>
+                                        <li>Proyector o pantalla interactiva.</li>
+                                        <li>Conexión a internet estable.</li>
+                                        <li>Chat de "Ada" activo y funcionando.</li>
+                                        <li>Presentación de diapositivas.</li>
+                                        <li>Materiales para el Challenge "El Cartógrafo de la IA Oculta".</li>
+                                    </ul>
+                                    <strong>Preparación Previa para ESTA Sesión:</strong>
+                                    <ol>
+                                        <li><strong>Revisión de Misión (Interna):</strong>
+                                            <ul>
+                                                <li>Verificar conexión a internet.</li>
+                                                <li>Asegurar disponibilidad y carga de los dispositivos físicos (ej. tabletas, ordenadores).</li>
+                                                <li>Tener la presentación de diapositivas lista y en orden.</li>
+                                                <li>Probar el chat "Ada" para asegurar su operatividad.</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Familiarización:</strong> Revisar el flujo de la sesión, los diálogos sugeridos y los tiempos de cada actividad.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- FIN DE LA SECCIÓN "DE UN VISTAZO" -->
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Recuerdo Relámpago ⏰ 5 minutos</h2>
+                <p>Activar conocimientos de la Misión 14 (co-diseño de IA) a través de un desafío de aplicación conceptual.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Recuerdo Relámpago ⏰ 3 minutos</h3>
+                            <p>Proyecta Diapositiva 2. Recuerdo Relámpago: ¿Cuál sobra?</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"“Empecemos poniendo a prueba el criterio que construimos. Les mostraré 4 ‘mesas de expertos’ que usamos para mejorar una idea de IA. Tres son principios éticos fundamentales, uno es un objetivo diferente. Discutan y justifiquen cuál sobra. 🤔<br>(En pantalla: 1. Expertos en Inclusión, 2. Expertos en Privacidad, 3. Expertos en Impacto, 4. Expertos en Viralidad)”"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Recuerdo Relámpago ⏰ 2 minutos</h3>
+                            <p>Guía una breve reflexión para cambiar el foco de la creación a la identificación.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Correcto. ‘Expertos en Viralidad’ sobra porque se enfoca en popularidad, no en ética. Ya demostraron que pueden diseñar IA con conciencia. Pero, ¿saben cuánta IA ya está diseñada y funcionando a su alrededor ahora mismo? 🤔 Una perla se forma capa por capa, oculta dentro de una ostra. La IA en nuestra vida es similar: está ahí, operando en capas que no vemos. Hoy, vamos a abrir la ostra.”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: Conexión Ada ⏰ 20 minutos</h2>
+                <p>Explorar de forma individual ejemplos concretos de IA invisible en apps populares (filtros, recomendaciones de música, texto predictivo).</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Conexión Ada ⏰ 0 minutos</h3>
+                            <p>Proyecta Diapositiva 3. Conexión Ada: Misión Perla.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Ahora, conéctense a la plataforma. Ada los llevará en un tour por su propio celular, revelando la IA que se esconde a plena vista en las apps que usan todos los días. La clave de activación de hoy es: Misión Perla ⚪. Escríbanla cuando se las pida.”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Conexión Ada ⏰ 20 minutos</h3>
+                            <p>Proyecta Diapositiva 4. Timer 20 min.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: Challenge Express ⏰ 8 minutos</h2>
+                <p>Contextualizar la identificación de la IA como un ejercicio de mapeo para hacer visible lo invisible.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Challenge Express ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 5. Challenge Express: El Cartógrafo de la IA Oculta.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"“Atención. La IA no es algo que vendrá en el futuro. Ya está aquí, en sus bolsillos, en sus casas. Pero opera de forma tan sutil que a menudo es invisible. <br>Este es su reto: En parejas, se convertirán en cartógraf@s. Su misión es mapear un día normal en la vida de un estudiante y señalar todos los puntos de contacto con IA que normalmente pasamos por alto.”"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Challenge Express ⏰ 4 minutos</h3>
+                            <p>Proyecta Diapositiva 6. Pide a los equipos que dibujen una línea de tiempo (mañana, tarde, noche) y listen las IAs que encuentran.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"“Piensen en un día, desde que se levantan hasta que se acuestan. ¿Dónde está la IA? <br>• Mañana: ¿El desbloqueo facial del celular? ¿La predicción del clima? ¿Spotify recomendando una canción? 🗺️<br>• Tarde: ¿El corrector ortográfico? ¿El feed de TikTok o Instagram? ¿Los anuncios que los persiguen?<br>• Noche: ¿Un filtro de cámara? ¿La recomendación de una serie en Netflix?<br>Hagan una lista de al menos 5 IAs ocultas que usan sin pensarlo. Tienen 4 minutos.”"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Challenge Express ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 7. Pide a los equipos que elijan una IA de su lista y respondan a preguntas sobre su impacto.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Ahora, elijan una de las IAs de su mapa, por ejemplo, el algoritmo de recomendación de YouTube. Respondan a esto: ¿Qué decide esa IA por ustedes? ¿Qué contenido les muestra y, más importante, qué contenido les oculta? ¿Cómo influye eso en lo que piensan o en lo que les gusta? Analicen su impacto real. Tienen 2 minutos.”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 4: Challenge Express ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 8. Invita a cada equipo a compartir el punto de contacto con IA más inesperado o el análisis de impacto que más les hizo pensar.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Cada equipo de cartógrafos compartirá ahora su hallazgo más interesante. ¿Qué IA descubrieron que no sabían que era una IA? ¿O qué conclusión sacaron sobre cómo una de estas herramientas influye en su día a día? Es buena idea compartir lo que piensan.”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-4">
+                <h2>⚡ Actividad 4: Ticket de Salida/Tweet de Aprendizaje ⏰ 5 minutos</h2>
+                <p>Sintetizar el aprendizaje en una declaración personal sobre su relación con la IA oculta.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Ticket de Salida/Tweet de Aprendizaje ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 9. Tweet de Aprendizaje.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"""El último paso de hoy es destilar su mayor descubrimiento. Piensen en todo lo que mapearon e identificaron. Ahora, escriban un tweet que capture cómo cambia su percepción de la tecnología a partir de hoy.<br>Ejemplo del maestro: A partir de hoy, entiendo que cada recomendación no es una sugerencia, es una decisión algorítmica. Mi atención es su objetivo. #VerLoInvisible”"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Ticket de Salida/Tweet de Aprendizaje ⏰ 2 minutos</h3>
+                            <p>Pide a los estudiantes compartir el tweet con un compañero y escuchar su idea.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Compartan su frase con la persona de al lado. ¿Qué los sorprendió más a cada uno? ¿En qué coinciden? El análisis mejora con el diálogo.”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Ticket de Salida/Tweet de Aprendizaje ⏰ 1 minutos</h3>
+                            <p>Proyecta Diapositiva 10. Reflexión final.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Hoy abrieron la ostra. Descubrieron que la IA no es una cosa, sino un sistema de capas invisibles que influyen en su mundo. Han aprendido a verlas, y verlas es el primer paso para cuestionarlas. Se han convertido en usuarios conscientes. Misión completada.”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
